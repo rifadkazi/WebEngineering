@@ -80,7 +80,7 @@ agricare/
 ## 👥 Contributors
 
 * **Rifad Kazi**
-* **Mihal Kazi**
+
 
 ---
 
