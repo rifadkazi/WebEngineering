@@ -1,68 +1,70 @@
-🌾 Agricare – Web Engineering Project
+# 🌾 Agricare – Web Engineering Project
 
-Agricare is a web-based application developed as part of a Web Engineering project.
-The system is designed to support agriculture-related services by providing an easy-to-use platform for managing information, improving accessibility, and enhancing digital solutions for farmers and agricultural stakeholders.
+Agricare is a web-based application developed as part of a **Web Engineering project**. The system aims to support agriculture-related services by providing a simple, accessible, and efficient digital platform for managing agricultural information and services.
 
-📌 Features
+---
 
-User-friendly web interface
+## 📌 Features
 
-Agriculture-related data management
+* User-friendly web interface
+* Agriculture-related information management
+* Responsive design (desktop & mobile)
+* Easy to extend and maintain
+* Academic-focused web application
 
-Responsive design for desktop and mobile
+---
 
-Built using standard web technologies
+## 🛠️ Technologies Used
 
-Scalable and easy to extend
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** PHP
+* **Database:** MySQL
+* **Server:** Apache (XAMPP)
+* **Version Control:** Git & GitHub
 
-🛠️ Technologies Used
+---
 
-Frontend: HTML, CSS, JavaScript
+## ⚙️ Installation & Setup
 
-Backend: PHP (XAMPP environment)
+### Prerequisites
 
-Database: MySQL
+* XAMPP installed
+* Git installed
+* Any modern web browser
 
-Server: Apache (via XAMPP)
+### Steps to Run the Project Locally
 
-Version Control: Git & GitHub
+1. Clone the repository:
 
-⚙️ Installation & Setup
-Prerequisites
+   ```bash
+   git clone https://github.com/rifadkazi/WebEngineering.git
+   ```
 
-XAMPP installed
+2. Move the project folder into XAMPP `htdocs` directory:
 
-Git installed
+   ```
+   C:\xampp\htdocs\agricare
+   ```
 
-Web browser (Chrome / Edge / Firefox)
+3. Start **Apache** and **MySQL** from the XAMPP Control Panel.
 
-Steps to Run Locally
+4. Database Setup:
 
-Clone the repository:
+   * Open `phpMyAdmin`
+   * Create a database (e.g., `agricare`)
+   * Import the provided `.sql` file (if included)
 
-git clone https://github.com/rifadkazi/WebEngineering.git
+5. Open the project in your browser:
 
+   ```
+   http://localhost/agricare
+   ```
 
-Move the project to XAMPP htdocs folder:
+---
 
-C:\xampp\htdocs\agricare
+## 📂 Project Structure
 
-
-Start Apache and MySQL from XAMPP Control Panel.
-
-Import the database:
-
-Open phpMyAdmin
-
-Create a database (e.g., agricare)
-
-Import the provided .sql file (if available)
-
-Open the project in browser:
-
-http://localhost/agricare
-
-📂 Project Structure
+```
 agricare/
 │── assets/
 │── css/
@@ -71,31 +73,25 @@ agricare/
 │── database/
 │── index.php
 │── README.md
+```
 
-👥 Team / Contributors
+---
 
-Rifad Kazi
+## 👥 Contributors
 
-Mihal Kazi
+* **Rifad Kazi**
+* **Mihal Kazi**
 
-📄 License
+---
 
-This project is developed for educational purposes as part of a Web Engineering course.
+## 📄 License
 
-📬 Contact
+This project is developed for **educational purposes** as part of a Web Engineering course.
 
-For questions or collaboration:
+---
 
-GitHub: https://github.com/rifadkazi
+## 📬 Contact
 
-If you want, I can:
+For queries or collaboration:
 
-Customize this README exactly to your project
-
-Add screenshots section
-
-Add database schema
-
-Rewrite it for university submission
-
-Just tell me 👍
+* GitHub: [https://github.com/rifadkazi](https://github.com/rifadkazi)
