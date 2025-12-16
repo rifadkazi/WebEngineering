@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - AgriCare</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reusing the centered login style */
+        body {
+            background-image: url('hero.jpg'); /* Ensure this image exists */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .register-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            width: 350px;
+            text-align: center;
+        }
+        .register-container h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .register-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Ensures padding doesn't break width */
+        }
+        .register-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .register-container button:hover {
+            background-color: #2ecc71;
+        }
+        .login-link {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .login-link a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <img src="logos.avif" alt="AgriCare Logo" style="width: 80px; margin-bottom: 10px;">
+        <h2>Create Account</h2>
+        
+        <form action="register.php" method="POST">
+            <input type="text" name="username" placeholder="Choose a Username" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="password" name="password" placeholder="Create Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <div class="login-link">
+            Already have an account? <br>
+            <a href="login.php">Login here</a>
+        </div>
+    </div>
+
+</body>
+</html>

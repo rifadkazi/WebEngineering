@@ -1,0 +1,283 @@
+/* =========================================
+   REBRANDED SIGNUP PAGE (Modal Lookalike)
+   ========================================= */
+
+/* 1. Make the whole page look like the "Dark Overlay" of the login modal */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Use the same image as your Hero section for continuity */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps image still while scrolling */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. Style the Navbar to be transparent or sit on top */
+.navbar {
+    background: rgba(0, 77, 64, 0.9); /* Slightly transparent dark teal */
+    border-bottom: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* 3. The Main Container - Centers the box vertically and horizontally */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 4. The White Box (Exactly like .modal-content) */
+.create-account-section {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px; /* Same width as login modal */
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5); /* Deep shadow to make it "pop" */
+    text-align: center;
+    position: relative;
+    animation: slideUp 0.5s ease-out;
+}
+
+/* Animation to float up */
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Headings */
+.create-account-section h2 {
+    color: #004d40;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.create-account-section p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+/* Form Elements */
+.create-account-section form {
+    text-align: left;
+}
+
+.create-account-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.create-account-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.create-account-section input:focus {
+    border-color: #27ae60;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.3);
+    outline: none;
+}
+
+/* The Sign Up Button */
+.create-account-section button {
+    width: 100%;
+    padding: 14px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+    margin-top: 10px;
+}
+
+.create-account-section button:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+/* Link at bottom */
+.create-account-section .login-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.create-account-section .login-link a {
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account-section .login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Success/Error Message */
+#signup-msg {
+    margin-top: 15px;
+    font-weight: bold;
+}/* =========================================
+   REBRANDED SIGNUP PAGE (Modal Lookalike)
+   ========================================= */
+
+/* 1. Make the whole page look like the "Dark Overlay" of the login modal */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Use the same image as your Hero section for continuity */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps image still while scrolling */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. Style the Navbar to be transparent or sit on top */
+.navbar {
+    background: rgba(0, 77, 64, 0.9); /* Slightly transparent dark teal */
+    border-bottom: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* 3. The Main Container - Centers the box vertically and horizontally */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 4. The White Box (Exactly like .modal-content) */
+.create-account-section {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px; /* Same width as login modal */
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5); /* Deep shadow to make it "pop" */
+    text-align: center;
+    position: relative;
+    animation: slideUp 0.5s ease-out;
+}
+
+/* Animation to float up */
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Headings */
+.create-account-section h2 {
+    color: #004d40;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.create-account-section p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+/* Form Elements */
+.create-account-section form {
+    text-align: left;
+}
+
+.create-account-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.create-account-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.create-account-section input:focus {
+    border-color: #27ae60;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.3);
+    outline: none;
+}
+
+/* The Sign Up Button */
+.create-account-section button {
+    width: 100%;
+    padding: 14px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+    margin-top: 10px;
+}
+
+.create-account-section button:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+/* Link at bottom */
+.create-account-section .login-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.create-account-section .login-link a {
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account-section .login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Success/Error Message */
+#signup-msg {
+    margin-top: 15px;
+    font-weight: bold;
+}
